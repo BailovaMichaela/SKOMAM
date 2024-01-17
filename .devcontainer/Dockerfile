@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/devcontainers/universal:2
+FROM python:3.11
 
 # Install ffmpeg
 RUN apt-get update && apt-get install -y ffmpeg
